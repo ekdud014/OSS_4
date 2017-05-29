@@ -147,7 +147,6 @@ void keyPressed(unsigned char key, int x, int y)
 	if (key == 'Y') viewer[1] += 0.1;
 	if (key == 'z') viewer[2] -= 0.1;
 	if (key == 'Z') viewer[2] += 0.1;
-	printf("viewer : %f, %f, %f\n", viewer[0], viewer[1], viewer[2]);
 
 	glutPostRedisplay();
 }
